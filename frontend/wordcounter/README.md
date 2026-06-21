@@ -12,3 +12,5 @@ and shows remaining characters for social media platforms.
 
 ## Tech Stack
 - HTML / CSS / JavaScript 
+## Live Demo
+[View Demo](https://kiawnoosh.github.io/portfolio-projects/frontend/wordcounter/)
