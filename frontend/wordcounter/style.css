@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Iosevka Charon", monospace;
+  font-weight: 400;
+  font-style: normal;
+  height: 100vh;
+  background: rgba(248, 248, 248, 0.751);
+}
+
+.title_text {
+  font-size: 5.5rem;
+  color: antiquewhite;
+}
+.creator {
+  color: #e2e2e2;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+.title_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  background: #809bbd;
+  background: linear-gradient(
+    90deg,
+    rgba(128, 155, 189, 1) 0%,
+    rgba(87, 199, 133, 1) 86%
+  );
+}
+.main_work {
+  display: flex;
+  margin-top: -20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 700px;
+  width: 1250px;
+  background: #ffffff;
+  box-shadow: -6px -4px 32px 11px rgba(0, 0, 0, 0.33);
+  overflow: hidden; /* این رو اضافه کن */
+  border-radius: 15px;
+}
+textarea {
+  resize: none;
+  height: 100%;
+  width: 50%;
+  font-size: 2rem;
+  padding: 10px;
+  border: none;
+  border-right: 1px solid #6565655b;
+}
+textarea:focus {
+  border: none;
+  border-right: 1px solid #6565655b;
+  outline: none;
+}
+
+.counter_sec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 50%;
+}
+.item {
+  background-color: #f1f6f8;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: Monospace !important;
+}
+/* بالا چپ */
+.word_counter {
+  border-right: 1px solid #6565655b;
+  border-bottom: 1px solid #6565655b;
+}
+
+/* بالا راست */
+.character_counter {
+  border-left: 1px solid #6565655b;
+  border-bottom: 1px solid #6565655b;
+}
+
+/* پایین چپ */
+.x_counter {
+  border-right: 1px solid #6565655b;
+  border-top: 1px solid #6565655b;
+}
+
+/* پایین راست */
+.instagram_counter {
+  border-left: 1px solid #6565655b;
+  border-top: 1px solid #6565655b;
+}
+
+@media (max-width: 768px) {
+  .main_work {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  textarea:focus {
+    border: none;
+    border-right: 1px solid #6565655b;
+    outline: none;
+  }
+  .main_work {
+    display: flex;
+    flex-direction: column;
+  }
+  .title_text {
+    font-size: 3.5rem;
+    margin-top: 20px;
+  }
+  .creator {
+    font-size: 3rem;
+    margin-top: -20px;
+  }
+  .textEl {
+    border: none;
+    width: 100%;
+  }
+  .counter_sec{
+    width: 100%;
+  }
+}
