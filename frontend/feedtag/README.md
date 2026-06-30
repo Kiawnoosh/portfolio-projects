@@ -39,7 +39,7 @@ A responsive feedback web app where users can submit comments mentioning compani
 
 ## Live Demo
 
-[View on GitHub Pages](https://kiawnoosh.github.io/portfolio-projects/frontend/feedtag/)
+[View on GitHub Pages](https://kiawnoosh.github.io/portfolio-projects/frontend/feedtag)
 
 ---
 
