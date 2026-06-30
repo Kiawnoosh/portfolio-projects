@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedTag</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg">
+    <script src="https://kit.fontawesome.com/5328a349d2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main_content">
+            <div class="top">
+                <div class="description">
+                    <div class="feedback_text">
+                        <i class="fa-regular fa-comment"></i>
+                        <span><b>FeedTag</b></span>
+                    </div>
+                    <p class="description_text typing">Comment <i>WHATEVER</i> you want!</p>
+                </div>
+                <div class="input_text">
+                    <form action="#">
+                        <textarea placeholder="your text..." name="" minlength="5" required maxlength="150"
+                            class="text_input_main"></textarea>
+                        <div class="down">
+                            <i class="word_counter">150</i>
+                            <button class="sub_btn">SUBMIT</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="comment_area">
+                <div class="comment_section ">
+                </div>
+            </div>
+            <span class="loader spinner"></span>
+        </div>
+        <ul class="hashtags">
+        </ul>
+        <i class="fa-solid fa-bars burger_menu" style="color:#6d6cc0;"></i>
+    </div>
+    <div class="credit">
+        <p class="credit_text"> Built for learning purposes. Design inspired by an external source.</p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
