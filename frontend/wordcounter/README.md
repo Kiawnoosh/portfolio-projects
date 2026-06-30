@@ -1,5 +1,5 @@
 # Word & Character Counter
-
+![WordCounter Screenshot](./img/screenshot.png)
 A real-time text analyzer that counts words and characters,
 and shows remaining characters for social media platforms.
 
